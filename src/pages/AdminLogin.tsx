@@ -48,7 +48,7 @@ const AdminLogin = () => {
             <Shield className="w-8 h-8 text-primary" />
           </div>
           <h1 className="text-2xl font-bold text-primary">Admin Dashboard</h1>
-          <p className="text-muted-foreground text-sm mt-1">SMP Negeri 1 Purbalingga</p>
+          <p className="text-muted-foreground text-sm mt-1">SMP Negeri 3 Kutasari</p>
         </CardHeader>
         <CardContent className="space-y-4 px-8 pb-8">
           <div>

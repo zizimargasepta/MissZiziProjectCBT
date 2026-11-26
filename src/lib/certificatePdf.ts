@@ -25,7 +25,7 @@ export const generateCertificatePdf = (student: Student, score: ScoreRecord, sco
   doc.setFontSize(11);
   doc.setTextColor(26, 68, 128);
   doc.setFont("helvetica", "normal");
-  doc.text("SMP NEGERI 1 PURBALINGGA", cx, 35, { align: "center" });
+  doc.text("SMP NEGERI 3 KUTASARI", cx, 35, { align: "center" });
 
   doc.setFontSize(28);
   doc.setFont("helvetica", "bold");
@@ -92,11 +92,11 @@ export const generateCertificatePdf = (student: Student, score: ScoreRecord, sco
 
 doc.setFontSize(9);
   doc.setTextColor(100, 116, 139);
-  doc.text("Didik Kamseno, S. Pd.", w - 75, 190, { align: "left" });
+  doc.text("Yessi Margasepta Nahak, S.S.", w - 75, 190, { align: "left" });
 
   doc.setFontSize(9);
   doc.setTextColor(100, 116, 139);
-  doc.text("NIP. 198612282022211008", w - 75, 195, { align: "left" });
+  doc.text("NIP. 199309122024212020", w - 75, 195, { align: "left" });
 
   doc.save(`Sertifikat_CBT_${student.name.replace(/\s+/g, "_")}.pdf`);
 };

@@ -52,7 +52,7 @@ const Login = () => {
             Computer Based Test
           </h1>
           <p className="text-muted-foreground text-sm mt-1">
-            SMP Negeri 1 Purbalingga
+            SMP Negeri 3 Kutasari
           </p>
         </CardHeader>
         <CardContent className="space-y-4 px-8 pb-8">
